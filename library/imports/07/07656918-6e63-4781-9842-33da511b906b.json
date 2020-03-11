@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "guanglet2",
+    "texture": "77fcca02-62fd-42c9-b446-69abb99d0908",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      50,
+      64
+    ],
+    "offset": [
+      -7,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

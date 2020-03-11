@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mage-guanglet1",
+    "texture": "1aa8c117-210b-4629-95d6-1578742176ac",
+    "atlas": "",
+    "rect": [
+      10,
+      0,
+      44,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

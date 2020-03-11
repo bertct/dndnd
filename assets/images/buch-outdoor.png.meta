@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "6b57eeb8-7a0f-4b24-8713-2046eaf33fe2",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 384,
+  "height": 192,
+  "platformSettings": {},
+  "subMetas": {
+    "buch-outdoor": {
+      "ver": "1.0.4",
+      "uuid": "bc050f4b-d662-4e12-851d-580e2489c437",
+      "rawTextureUuid": "6b57eeb8-7a0f-4b24-8713-2046eaf33fe2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 384,
+      "height": 192,
+      "rawWidth": 384,
+      "rawHeight": 192,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

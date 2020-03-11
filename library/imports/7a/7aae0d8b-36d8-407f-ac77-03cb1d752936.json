@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shieldStroked",
+    "texture": "2f450b03-73c5-4550-9642-e7351ac99390",
+    "atlas": "",
+    "rect": [
+      8,
+      10,
+      78,
+      73
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      93,
+      93
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

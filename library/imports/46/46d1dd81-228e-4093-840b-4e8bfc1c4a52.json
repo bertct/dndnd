@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "knight-guanglet1",
+    "texture": "c904470c-24e1-4c55-9e5d-aa111ee6415b",
+    "atlas": "",
+    "rect": [
+      15,
+      0,
+      39,
+      64
+    ],
+    "offset": [
+      2.5,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

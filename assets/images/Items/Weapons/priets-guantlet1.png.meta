@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "71beb649-2791-47b3-bf05-6d3e397b16ce",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 64,
+  "height": 64,
+  "platformSettings": {},
+  "subMetas": {
+    "priets-guantlet1": {
+      "ver": "1.0.4",
+      "uuid": "b609c36c-0411-437d-aa75-a078dce34b9f",
+      "rawTextureUuid": "71beb649-2791-47b3-bf05-6d3e397b16ce",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 10,
+      "trimY": 0,
+      "width": 44,
+      "height": 64,
+      "rawWidth": 64,
+      "rawHeight": 64,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

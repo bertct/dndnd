@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dagger1",
+    "texture": "f2086ae8-47f2-499e-9114-49f8c1010b0b",
+    "atlas": "",
+    "rect": [
+      31,
+      0,
+      33,
+      64
+    ],
+    "offset": [
+      15.5,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

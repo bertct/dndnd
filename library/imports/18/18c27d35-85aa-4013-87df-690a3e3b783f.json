@@ -1,0 +1,575 @@
+{
+  "__type__": "cc.TiledMapAsset",
+  "_name": "sandbox2",
+  "_objFlags": 0,
+  "_native": "",
+  "tmxXmlStr": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<map version=\"1.0\" orientation=\"orthogonal\" renderorder=\"right-down\" width=\"80\" height=\"31\" tilewidth=\"32\" tileheight=\"32\" backgroundcolor=\"#35495e\" nextobjectid=\"385\">\n <tileset firstgid=\"1\" name=\"objs\" tilewidth=\"384\" tileheight=\"332\" tilecount=\"62\" columns=\"0\">\n  <tile id=\"0\">\n   <image width=\"160\" height=\"192\" source=\"alter.png\"/>\n  </tile>\n  <tile id=\"1\">\n   <image width=\"96\" height=\"64\" source=\"blobBlue.png\"/>\n  </tile>\n  <tile id=\"2\">\n   <image width=\"96\" height=\"64\" source=\"blobGreen.png\"/>\n  </tile>\n  <tile id=\"3\">\n   <image width=\"64\" height=\"64\" source=\"blue.png\"/>\n  </tile>\n  <tile id=\"4\">\n   <image width=\"96\" height=\"128\" source=\"bombStroked.png\"/>\n  </tile>\n  <tile id=\"5\">\n   <image width=\"64\" height=\"64\" source=\"castleWall.png\"/>\n  </tile>\n  <tile id=\"6\">\n   <image width=\"384\" height=\"128\" source=\"cloud.png\"/>\n  </tile>\n  <tile id=\"7\">\n   <image width=\"128\" height=\"192\" source=\"column1.png\"/>\n  </tile>\n  <tile id=\"8\">\n   <image width=\"128\" height=\"192\" source=\"column2.png\"/>\n  </tile>\n  <tile id=\"9\">\n   <image width=\"160\" height=\"192\" source=\"doorBlueStroked.png\"/>\n  </tile>\n  <tile id=\"10\">\n   <image width=\"160\" height=\"192\" source=\"doorGreenStroke.png\"/>\n  </tile>\n  <tile id=\"11\">\n   <image width=\"160\" height=\"192\" source=\"doorRedStroked.png\"/>\n  </tile>\n  <tile id=\"12\">\n   <image width=\"160\" height=\"192\" source=\"doorStroked.png\"/>\n  </tile>\n  <tile id=\"13\">\n   <image width=\"64\" height=\"64\" source=\"earthWall.png\"/>\n  </tile>\n  <tile id=\"14\">\n   <image width=\"160\" height=\"192\" source=\"exit.png\"/>\n  </tile>\n  <tile id=\"15\">\n   <image width=\"192\" height=\"192\" source=\"flare.png\"/>\n  </tile>\n  <tile id=\"16\">\n   <image width=\"64\" height=\"64\" source=\"gemBlueStroked.png\"/>\n  </tile>\n  <tile id=\"17\">\n   <image width=\"64\" height=\"64\" source=\"gemRedStroked.png\"/>\n  </tile>\n  <tile id=\"18\">\n   <image width=\"224\" height=\"32\" source=\"grassLarge.png\"/>\n  </tile>\n  <tile id=\"19\">\n   <image width=\"160\" height=\"32\" source=\"grassSmall.png\"/>\n  </tile>\n  <tile id=\"20\">\n   <image width=\"64\" height=\"64\" source=\"grey.png\"/>\n  </tile>\n  <tile id=\"21\">\n   <image width=\"128\" height=\"160\" source=\"hero.png\"/>\n  </tile>\n  <tile id=\"22\">\n   <image width=\"96\" height=\"64\" source=\"keyGreenStroked.png\"/>\n  </tile>\n  <tile id=\"23\">\n   <image width=\"96\" height=\"64\" source=\"keyRedStroked.png\"/>\n  </tile>\n  <tile id=\"24\">\n   <image width=\"96\" height=\"64\" source=\"keyYellowStroked.png\"/>\n  </tile>\n  <tile id=\"25\">\n   <image width=\"192\" height=\"64\" source=\"platform1.png\"/>\n  </tile>\n  <tile id=\"26\">\n   <image width=\"192\" height=\"64\" source=\"platform2.png\"/>\n  </tile>\n  <tile id=\"27\">\n   <image width=\"192\" height=\"64\" source=\"platform3.png\"/>\n  </tile>\n  <tile id=\"28\">\n   <image width=\"192\" height=\"64\" source=\"platform4.png\"/>\n  </tile>\n  <tile id=\"29\">\n   <image width=\"256\" height=\"96\" source=\"platformBase1.png\"/>\n  </tile>\n  <tile id=\"30\">\n   <image width=\"256\" height=\"96\" source=\"platformBase2.png\"/>\n  </tile>\n  <tile id=\"31\">\n   <image width=\"256\" height=\"96\" source=\"platformBase3.png\"/>\n  </tile>\n  <tile id=\"32\">\n   <image width=\"256\" height=\"96\" source=\"platformBase4.png\"/>\n  </tile>\n  <tile id=\"33\">\n   <image width=\"128\" height=\"96\" source=\"platformBlock1.png\"/>\n  </tile>\n  <tile id=\"34\">\n   <image width=\"128\" height=\"96\" source=\"platformBlock2.png\"/>\n  </tile>\n  <tile id=\"35\">\n   <image width=\"128\" height=\"96\" source=\"platformBlock3.png\"/>\n  </tile>\n  <tile id=\"36\">\n   <image width=\"128\" height=\"96\" source=\"platformBlock4.png\"/>\n  </tile>\n  <tile id=\"37\">\n   <image width=\"96\" height=\"64\" source=\"platformConnector1.png\"/>\n  </tile>\n  <tile id=\"38\">\n   <image width=\"96\" height=\"64\" source=\"platformConnector2.png\"/>\n  </tile>\n  <tile id=\"39\">\n   <image width=\"96\" height=\"64\" source=\"platformConnector3.png\"/>\n  </tile>\n  <tile id=\"40\">\n   <image width=\"96\" height=\"64\" source=\"platformConnector4.png\"/>\n  </tile>\n  <tile id=\"41\">\n   <image width=\"96\" height=\"96\" source=\"pushBlock1.png\"/>\n  </tile>\n  <tile id=\"42\">\n   <image width=\"96\" height=\"96\" source=\"pushBlock2.png\"/>\n  </tile>\n  <tile id=\"43\">\n   <image width=\"96\" height=\"96\" source=\"pushBlock3.png\"/>\n  </tile>\n  <tile id=\"44\">\n   <image width=\"64\" height=\"64\" source=\"shadow.png\"/>\n  </tile>\n  <tile id=\"45\">\n   <image width=\"93\" height=\"93\" source=\"shieldStroked.png\"/>\n  </tile>\n  <tile id=\"46\">\n   <image width=\"160\" height=\"128\" source=\"sign.png\"/>\n  </tile>\n  <tile id=\"48\">\n   <image width=\"192\" height=\"96\" source=\"swordStroked.png\"/>\n  </tile>\n  <tile id=\"49\">\n   <image width=\"96\" height=\"96\" source=\"torch.png\"/>\n  </tile>\n  <tile id=\"50\">\n   <image width=\"128\" height=\"32\" source=\"trap.png\"/>\n  </tile>\n  <tile id=\"51\">\n   <image width=\"128\" height=\"96\" source=\"wallDecor1.png\"/>\n  </tile>\n  <tile id=\"52\">\n   <image width=\"128\" height=\"96\" source=\"wallDecor2.png\"/>\n  </tile>\n  <tile id=\"53\">\n   <image width=\"160\" height=\"128\" source=\"wallDecor3.png\"/>\n  </tile>\n  <tile id=\"54\">\n   <image width=\"65\" height=\"64\" source=\"window1.png\"/>\n  </tile>\n  <tile id=\"55\">\n   <image width=\"64\" height=\"64\" source=\"window2.png\"/>\n  </tile>\n  <tile id=\"56\">\n   <image width=\"56\" height=\"59\" source=\"window3.png\"/>\n  </tile>\n  <tile id=\"57\">\n   <image width=\"135\" height=\"115\" source=\"backgroundArch.png\"/>\n  </tile>\n  <tile id=\"58\">\n   <image width=\"380\" height=\"140\" source=\"backgroundMountain.png\"/>\n  </tile>\n  <tile id=\"59\">\n   <image width=\"129\" height=\"332\" source=\"backgroundTower.png\"/>\n  </tile>\n  <tile id=\"60\">\n   <image width=\"109\" height=\"177\" source=\"backgroundTree.png\"/>\n  </tile>\n  <tile id=\"61\">\n   <image width=\"64\" height=\"64\" source=\"earthWall2.png\"/>\n  </tile>\n  <tile id=\"62\">\n   <image width=\"133\" height=\"160\" source=\"skeleton.png\"/>\n  </tile>\n </tileset>\n <objectgroup name=\"background\">\n  <object id=\"193\" gid=\"6\" x=\"0\" y=\"1184\" width=\"1280\" height=\"416\"/>\n  <object id=\"284\" gid=\"15\" x=\"192\" y=\"450\" width=\"160\" height=\"192\"/>\n  <object id=\"287\" gid=\"54\" x=\"704\" y=\"448\" width=\"160\" height=\"128\"/>\n  <object id=\"288\" gid=\"54\" x=\"72\" y=\"160\" width=\"160\" height=\"128\"/>\n  <object id=\"291\" gid=\"54\" x=\"488\" y=\"664\" width=\"160\" height=\"128\"/>\n  <object id=\"292\" gid=\"54\" x=\"1296\" y=\"216\" width=\"160\" height=\"128\"/>\n  <object id=\"293\" gid=\"54\" x=\"1608\" y=\"488\" width=\"160\" height=\"128\"/>\n  <object id=\"294\" gid=\"54\" x=\"1856\" y=\"648\" width=\"160\" height=\"128\"/>\n  <object id=\"295\" gid=\"54\" x=\"2280\" y=\"288\" width=\"160\" height=\"128\"/>\n  <object id=\"296\" gid=\"50\" x=\"96\" y=\"352\" width=\"96\" height=\"96\"/>\n  <object id=\"297\" gid=\"50\" x=\"384\" y=\"352\" width=\"96\" height=\"96\"/>\n  <object id=\"298\" gid=\"50\" x=\"912\" y=\"608\" width=\"96\" height=\"96\"/>\n  <object id=\"299\" gid=\"50\" x=\"1888\" y=\"288\" width=\"96\" height=\"96\"/>\n  <object id=\"300\" gid=\"50\" x=\"2272\" y=\"288\" width=\"96\" height=\"96\"/>\n  <object id=\"301\" gid=\"50\" x=\"1296\" y=\"328\" width=\"96\" height=\"96\"/>\n  <object id=\"341\" gid=\"6\" x=\"2560\" y=\"-288\" width=\"1472\" height=\"392\" rotation=\"-270\"/>\n  <object id=\"342\" gid=\"6\" x=\"-352\" y=\"-288\" width=\"1472\" height=\"352\" rotation=\"-270\"/>\n  <object id=\"353\" gid=\"6\" x=\"0\" y=\"-56\" width=\"2568\" height=\"232\"/>\n  <object id=\"361\" gid=\"54\" x=\"1296\" y=\"216\" width=\"160\" height=\"128\"/>\n  <object id=\"373\" gid=\"6\" x=\"1792\" y=\"1184\" width=\"800\" height=\"352\"/>\n  <object id=\"374\" gid=\"6\" x=\"1152\" y=\"1184\" width=\"800\" height=\"160\"/>\n </objectgroup>\n <objectgroup name=\"ground\">\n  <object id=\"196\" gid=\"28\" x=\"2120\" y=\"416\" width=\"192\" height=\"64\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"floating\" value=\"true\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"197\" gid=\"29\" x=\"1928\" y=\"416\" width=\"192\" height=\"64\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"floating\" value=\"true\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"232\" gid=\"28\" x=\"1088\" y=\"608\" width=\"192\" height=\"64\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"floating\" value=\"true\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"233\" gid=\"29\" x=\"1472\" y=\"480\" width=\"192\" height=\"64\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"floating\" value=\"true\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"237\" type=\"coin\" gid=\"18\" x=\"2096\" y=\"608\" width=\"64\" height=\"64\"/>\n  <object id=\"238\" type=\"coin\" gid=\"18\" x=\"1152\" y=\"480\" width=\"64\" height=\"64\"/>\n  <object id=\"258\" gid=\"33\" x=\"0\" y=\"864\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"259\" gid=\"33\" x=\"512\" y=\"864\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"260\" gid=\"32\" x=\"256\" y=\"864\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"261\" gid=\"32\" x=\"768\" y=\"864\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"262\" gid=\"33\" x=\"1024\" y=\"864\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"263\" gid=\"33\" x=\"1280\" y=\"1088\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"264\" gid=\"32\" x=\"1536\" y=\"1088\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"265\" gid=\"33\" x=\"1792\" y=\"864\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"266\" gid=\"33\" x=\"2304\" y=\"864\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"267\" gid=\"32\" x=\"2048\" y=\"864\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"276\" type=\"exit\" gid=\"10\" x=\"2056\" y=\"352\" width=\"160\" height=\"192\">\n   <properties>\n    <property name=\"map\" value=\"scene/game/map/sandbox3.json\"/>\n   </properties>\n  </object>\n  <object id=\"277\" gid=\"37\" x=\"352\" y=\"768\" width=\"128\" height=\"96\"/>\n  <object id=\"278\" gid=\"8\" x=\"116\" y=\"672\" width=\"128\" height=\"192\"/>\n  <object id=\"279\" gid=\"9\" x=\"363\" y=\"672\" width=\"128\" height=\"192\"/>\n  <object id=\"280\" gid=\"36\" x=\"104\" y=\"768\" width=\"128\" height=\"96\"/>\n  <object id=\"281\" gid=\"28\" x=\"216\" y=\"512\" width=\"192\" height=\"64\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"floating\" value=\"true\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"282\" gid=\"29\" x=\"24\" y=\"512\" width=\"192\" height=\"64\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"floating\" value=\"true\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"283\" gid=\"29\" x=\"408\" y=\"512\" width=\"192\" height=\"64\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"floating\" value=\"true\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"286\" gid=\"8\" x=\"1112\" y=\"768\" width=\"128\" height=\"192\"/>\n  <object id=\"343\" gid=\"33\" x=\"1792\" y=\"32\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"floating\" value=\"\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"344\" gid=\"33\" x=\"2304\" y=\"32\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"floating\" value=\"false\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"345\" gid=\"33\" x=\"0\" y=\"32\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"floating\" value=\"false\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"346\" gid=\"32\" x=\"256\" y=\"32\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"floating\" value=\"false\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"347\" gid=\"33\" x=\"1280\" y=\"32\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"floating\" value=\"false\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"348\" gid=\"33\" x=\"512\" y=\"32\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"floating\" value=\"false\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"349\" gid=\"33\" x=\"1024\" y=\"32\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"floating\" value=\"false\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"350\" gid=\"32\" x=\"1536\" y=\"32\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"floating\" value=\"false\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"351\" gid=\"32\" x=\"2048\" y=\"32\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"floating\" value=\"false\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"352\" gid=\"33\" x=\"768\" y=\"32\" width=\"256\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"floating\" value=\"false\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"270\" gid=\"36\" x=\"1920\" y=\"768\" width=\"128\" height=\"96\"/>\n  <object id=\"273\" gid=\"9\" x=\"2179\" y=\"672\" width=\"128\" height=\"192\"/>\n  <object id=\"272\" gid=\"8\" x=\"1932\" y=\"672\" width=\"128\" height=\"192\"/>\n  <object id=\"275\" gid=\"37\" x=\"1920\" y=\"480\" width=\"128\" height=\"96\"/>\n  <object id=\"274\" gid=\"36\" x=\"2168\" y=\"480\" width=\"128\" height=\"96\"/>\n  <object id=\"271\" gid=\"37\" x=\"2168\" y=\"768\" width=\"128\" height=\"96\"/>\n  <object id=\"383\" gid=\"29\" x=\"1472\" y=\"704\" width=\"192\" height=\"64\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n    <property name=\"floating\" value=\"true\"/>\n    <property name=\"friction\" value=\"1.00\"/>\n   </properties>\n  </object>\n  <object id=\"384\" type=\"coin\" gid=\"18\" x=\"1536\" y=\"320\" width=\"64\" height=\"64\"/>\n </objectgroup>\n <objectgroup name=\"castledeco\">\n  <object id=\"220\" gid=\"37\" x=\"184\" y=\"1016\" width=\"128\" height=\"96\"/>\n  <object id=\"221\" gid=\"36\" x=\"1832\" y=\"1024\" width=\"128\" height=\"96\"/>\n  <object id=\"227\" gid=\"55\" x=\"1184\" y=\"968\" width=\"65\" height=\"64\"/>\n  <object id=\"228\" gid=\"55\" x=\"512\" y=\"960\" width=\"65\" height=\"64\"/>\n  <object id=\"229\" gid=\"55\" x=\"2304\" y=\"952\" width=\"65\" height=\"64\"/>\n  <object id=\"268\" gid=\"36\" x=\"832\" y=\"1048\" width=\"128\" height=\"96\"/>\n  <object id=\"364\" gid=\"54\" x=\"-200\" y=\"216\" width=\"160\" height=\"128\"/>\n  <object id=\"359\" gid=\"54\" x=\"-120\" y=\"1072\" width=\"160\" height=\"128\"/>\n  <object id=\"360\" gid=\"54\" x=\"2584\" y=\"56\" width=\"160\" height=\"128\"/>\n  <object id=\"366\" gid=\"54\" x=\"2512\" y=\"1112\" width=\"160\" height=\"128\"/>\n  <object id=\"367\" gid=\"56\" x=\"928\" y=\"328\" width=\"64\" height=\"64\"/>\n  <object id=\"368\" gid=\"56\" x=\"1128\" y=\"160\" width=\"64\" height=\"64\"/>\n  <object id=\"369\" gid=\"56\" x=\"2392\" y=\"464\" width=\"64\" height=\"64\"/>\n  <object id=\"370\" gid=\"56\" x=\"272\" y=\"624\" width=\"64\" height=\"64\"/>\n </objectgroup>\n <objectgroup name=\"shading\" opacity=\"0.16\">\n  <object id=\"112\" gid=\"45\" x=\"2496\" y=\"1184\" width=\"456\" height=\"1472\"/>\n  <object id=\"334\" gid=\"45\" x=\"-384\" y=\"1184\" width=\"448\" height=\"1472\"/>\n </objectgroup>\n <objectgroup name=\"light\" opacity=\"0.5\">\n  <object id=\"335\" gid=\"16\" x=\"2224\" y=\"280\" width=\"192\" height=\"192\"/>\n  <object id=\"336\" gid=\"16\" x=\"1840\" y=\"280\" width=\"192\" height=\"192\"/>\n  <object id=\"337\" gid=\"16\" x=\"1248\" y=\"320\" width=\"192\" height=\"192\"/>\n  <object id=\"338\" gid=\"16\" x=\"336\" y=\"336\" width=\"192\" height=\"192\"/>\n  <object id=\"339\" gid=\"16\" x=\"48\" y=\"336\" width=\"192\" height=\"192\"/>\n  <object id=\"340\" gid=\"16\" x=\"864\" y=\"600\" width=\"192\" height=\"192\"/>\n </objectgroup>\n <objectgroup name=\"game\">\n  <object id=\"58\" name=\"hero\" type=\"hero\" gid=\"22\" x=\"288\" y=\"448\" width=\"128\" height=\"160\"/>\n  <object id=\"111\" name=\"block\" gid=\"44\" x=\"2245\" y=\"340\" width=\"96\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"dynamic\"/>\n    <property name=\"density\" type=\"float\" value=\"2\"/>\n    <property name=\"friction\" type=\"float\" value=\"0.45\"/>\n   </properties>\n  </object>\n  <object id=\"161\" name=\"hey\" type=\"blob\" gid=\"3\" x=\"464\" y=\"768\" width=\"96\" height=\"64\"/>\n  <object id=\"160\" type=\"blob\" gid=\"2\" x=\"846\" y=\"756\" width=\"96\" height=\"64\"/>\n  <object id=\"189\" type=\"enemy\" gid=\"2147483711\" x=\"2412\" y=\"754\" width=\"133\" height=\"160\"/>\n  <object id=\"190\" type=\"coin\" gid=\"17\" x=\"96\" y=\"736\" width=\"64\" height=\"64\"/>\n  <object id=\"192\" type=\"coin\" gid=\"17\" x=\"96\" y=\"416\" width=\"64\" height=\"64\"/>\n  <object id=\"231\" name=\"block\" gid=\"44\" x=\"488\" y=\"448\" width=\"96\" height=\"96\">\n   <properties>\n    <property name=\"bodyType\" value=\"dynamic\"/>\n    <property name=\"density\" type=\"float\" value=\"2\"/>\n    <property name=\"friction\" type=\"float\" value=\"0.45\"/>\n   </properties>\n  </object>\n  <object id=\"285\" type=\"coin\" gid=\"17\" x=\"1536\" y=\"576\" width=\"64\" height=\"64\"/>\n </objectgroup>\n <objectgroup name=\"above\">\n  <object id=\"379\" type=\"spikes\" gid=\"51\" x=\"1280\" y=\"995\" width=\"128\" height=\"32\"/>\n  <object id=\"380\" type=\"spikes\" gid=\"51\" x=\"1408\" y=\"995\" width=\"128\" height=\"32\"/>\n  <object id=\"381\" type=\"spikes\" gid=\"51\" x=\"1536\" y=\"995\" width=\"128\" height=\"32\"/>\n  <object id=\"382\" type=\"spikes\" gid=\"51\" x=\"1664\" y=\"995\" width=\"128\" height=\"32\"/>\n </objectgroup>\n <objectgroup name=\"bounds\" visible=\"0\">\n  <object id=\"375\" x=\"-32\" y=\"-64\" width=\"32\" height=\"896\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n   </properties>\n  </object>\n  <object id=\"376\" x=\"2560\" y=\"-64\" width=\"32\" height=\"896\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n   </properties>\n  </object>\n  <object id=\"377\" x=\"1792\" y=\"768\" width=\"32\" height=\"288\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n   </properties>\n  </object>\n  <object id=\"378\" x=\"1248\" y=\"762.5\" width=\"32\" height=\"293.5\">\n   <properties>\n    <property name=\"bodyType\" value=\"static\"/>\n   </properties>\n  </object>\n </objectgroup>\n</map>\n",
+  "textures": [
+    {
+      "__uuid__": "41f12c71-ddbd-4cc0-ab7c-c1c379975795"
+    },
+    {
+      "__uuid__": "b69dee19-6db6-4d3a-82cf-497fb371bf6f"
+    },
+    {
+      "__uuid__": "174a3a1b-44ff-44d3-b4f2-6cb0cbbbf1c3"
+    },
+    {
+      "__uuid__": "18686ab3-4b21-4154-ace7-12d824427362"
+    },
+    {
+      "__uuid__": "1bd0aaa8-74de-4270-800b-9d0f89fe0c46"
+    },
+    {
+      "__uuid__": "088c6015-8bbe-4a06-b593-bd88f4691135"
+    },
+    {
+      "__uuid__": "37e90f9a-7cc2-4de0-acd4-11fc6fbd8cd0"
+    },
+    {
+      "__uuid__": "fad2ba2d-781e-43f7-a9db-11dd8c645223"
+    },
+    {
+      "__uuid__": "be6211d1-2ff5-477f-9fee-50c0ac2183d0"
+    },
+    {
+      "__uuid__": "93e7f4e6-523e-4760-8678-3c157ddc4974"
+    },
+    {
+      "__uuid__": "cc47b995-1209-4939-8f6b-fd1a9bac19bf"
+    },
+    {
+      "__uuid__": "7bb44506-1012-4044-9d32-191ec254707d"
+    },
+    {
+      "__uuid__": "d379a2c0-6fd1-468d-afde-3eba96c2dddd"
+    },
+    {
+      "__uuid__": "5ef5fb57-ff12-470c-ad43-45bdf874ba16"
+    },
+    {
+      "__uuid__": "ed61364b-5185-4935-b84b-f6c6955bd1d8"
+    },
+    {
+      "__uuid__": "762bc5f7-2628-4f46-8655-4b90ffde468b"
+    },
+    {
+      "__uuid__": "fc5e8b3c-d6a4-4670-b252-14f43b183894"
+    },
+    {
+      "__uuid__": "8d983db5-282b-4d7f-9121-003468235469"
+    },
+    {
+      "__uuid__": "ec6f4327-e0e5-48d9-b199-c1f67d893600"
+    },
+    {
+      "__uuid__": "42fd0150-5f95-436e-8a0a-ca6800974667"
+    },
+    {
+      "__uuid__": "2f75a836-62f2-403d-8ac4-9898b4771ff5"
+    },
+    {
+      "__uuid__": "eba53cc0-f201-4b31-9593-1509357d280e"
+    },
+    {
+      "__uuid__": "6f66093f-ffe4-48f2-b1d3-9de2dfe0b575"
+    },
+    {
+      "__uuid__": "951fb98b-a125-469e-b05c-7edcf7f6531b"
+    },
+    {
+      "__uuid__": "963ab11d-4205-43e3-9946-b1093e2f0d57"
+    },
+    {
+      "__uuid__": "2d8a2ab2-cc53-4e1a-9e14-3a197959fc57"
+    },
+    {
+      "__uuid__": "a0dc1396-07d0-47e5-8050-5b3dfae529e8"
+    },
+    {
+      "__uuid__": "561f91de-0c31-4c6a-ae8d-28bb4c30de47"
+    },
+    {
+      "__uuid__": "14126ae2-3f9b-4192-9117-165e347f430b"
+    },
+    {
+      "__uuid__": "00da30cf-6e0d-489c-9b46-5feea5556d9f"
+    },
+    {
+      "__uuid__": "70b3d42f-f30c-4ee7-9cab-c5d1adaf90c1"
+    },
+    {
+      "__uuid__": "b1a9a81f-320f-47d4-8fa6-c7425c310459"
+    },
+    {
+      "__uuid__": "2c4b5d48-21cf-4b4c-b8f1-8ac31309ff43"
+    },
+    {
+      "__uuid__": "9786b97b-62bf-467f-9bd5-c136619fbec4"
+    },
+    {
+      "__uuid__": "d52173ed-d7d2-41ae-84ae-31cdf5dcacf5"
+    },
+    {
+      "__uuid__": "0c3f1014-6327-46cc-af23-f60d30502f1d"
+    },
+    {
+      "__uuid__": "901273d3-6d2a-414d-ac59-7575dabc6811"
+    },
+    {
+      "__uuid__": "e2bece72-37ba-4896-9bdf-044bf0c24093"
+    },
+    {
+      "__uuid__": "1681c783-6dbe-4548-9b7a-314df20e038e"
+    },
+    {
+      "__uuid__": "0fcdf1b8-803d-4a1c-a182-8b05080675f9"
+    },
+    {
+      "__uuid__": "bdaf036b-aa67-4c2f-9595-90e47e8f89f0"
+    },
+    {
+      "__uuid__": "33f9e501-450a-4273-a88b-a8ecaf52bfe6"
+    },
+    {
+      "__uuid__": "9068fcfc-924e-49ba-b8b5-337e5ba5c2d9"
+    },
+    {
+      "__uuid__": "8ca4fa2f-48b0-488a-8d2d-7037c4c645d6"
+    },
+    {
+      "__uuid__": "a60acac8-1f73-4600-b565-7fafa562e004"
+    },
+    {
+      "__uuid__": "2f450b03-73c5-4550-9642-e7351ac99390"
+    },
+    {
+      "__uuid__": "66d50854-c2f8-4e2b-832f-6c9330bdc454"
+    },
+    {
+      "__uuid__": "9a70bc10-0b72-42ae-a35d-e92ae32835fa"
+    },
+    {
+      "__uuid__": "cd5c79ad-d809-4b54-a7b7-a46f012ae505"
+    },
+    {
+      "__uuid__": "f8bcdd9f-94fd-4721-9582-d71494fb66c4"
+    },
+    {
+      "__uuid__": "4202424c-bb70-4ee8-8fc6-158bf8ac48f5"
+    },
+    {
+      "__uuid__": "8940503f-9009-40db-b429-6438a4bfcd14"
+    },
+    {
+      "__uuid__": "b444fff7-70d3-4f12-8cd7-bd25065e2699"
+    },
+    {
+      "__uuid__": "a9cd0617-4c65-4cb9-aae5-6ee3891809e1"
+    },
+    {
+      "__uuid__": "12a0ace9-15bb-451f-9302-c5fd74980bcc"
+    },
+    {
+      "__uuid__": "960945ca-35cf-49e0-bc9e-a84128ee55a3"
+    },
+    {
+      "__uuid__": "dc9d156e-5aa5-47d9-a5c0-b51659d94905"
+    },
+    {
+      "__uuid__": "975712ac-bb44-4598-8ff9-89be79545ef1"
+    },
+    {
+      "__uuid__": "91204e88-ea89-44d1-9879-4b54f295f9be"
+    },
+    {
+      "__uuid__": "665f35c8-32ec-42a8-9ba3-beacd4bda7af"
+    },
+    {
+      "__uuid__": "395911e6-8483-48b6-bfa8-803dcb85dfca"
+    },
+    {
+      "__uuid__": "52fcad52-f6b3-45ea-b5b7-c6b942bdf474"
+    }
+  ],
+  "textureNames": [
+    "alter.png",
+    "blobBlue.png",
+    "blobGreen.png",
+    "blue.png",
+    "bombStroked.png",
+    "castleWall.png",
+    "cloud.png",
+    "column1.png",
+    "column2.png",
+    "doorBlueStroked.png",
+    "doorGreenStroke.png",
+    "doorRedStroked.png",
+    "doorStroked.png",
+    "earthWall.png",
+    "exit.png",
+    "flare.png",
+    "gemBlueStroked.png",
+    "gemRedStroked.png",
+    "grassLarge.png",
+    "grassSmall.png",
+    "grey.png",
+    "hero.png",
+    "keyGreenStroked.png",
+    "keyRedStroked.png",
+    "keyYellowStroked.png",
+    "platform1.png",
+    "platform2.png",
+    "platform3.png",
+    "platform4.png",
+    "platformBase1.png",
+    "platformBase2.png",
+    "platformBase3.png",
+    "platformBase4.png",
+    "platformBlock1.png",
+    "platformBlock2.png",
+    "platformBlock3.png",
+    "platformBlock4.png",
+    "platformConnector1.png",
+    "platformConnector2.png",
+    "platformConnector3.png",
+    "platformConnector4.png",
+    "pushBlock1.png",
+    "pushBlock2.png",
+    "pushBlock3.png",
+    "shadow.png",
+    "shieldStroked.png",
+    "sign.png",
+    "swordStroked.png",
+    "torch.png",
+    "trap.png",
+    "wallDecor1.png",
+    "wallDecor2.png",
+    "wallDecor3.png",
+    "window1.png",
+    "window2.png",
+    "window3.png",
+    "backgroundArch.png",
+    "backgroundMountain.png",
+    "backgroundTower.png",
+    "backgroundTree.png",
+    "earthWall2.png",
+    "skeleton.png"
+  ],
+  "textureSizes": [
+    {
+      "__type__": "cc.Size",
+      "width": 160,
+      "height": 192
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 96,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 96,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 96,
+      "height": 128
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 128,
+      "height": 192
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 128,
+      "height": 192
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 160,
+      "height": 192
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 160,
+      "height": 192
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 160,
+      "height": 192
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 160,
+      "height": 192
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 160,
+      "height": 192
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 192,
+      "height": 192
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 224,
+      "height": 32
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 160,
+      "height": 32
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 128,
+      "height": 160
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 96,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 96,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 96,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 256,
+      "height": 96
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 256,
+      "height": 96
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 256,
+      "height": 96
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 256,
+      "height": 96
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 128,
+      "height": 96
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 128,
+      "height": 96
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 128,
+      "height": 96
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 128,
+      "height": 96
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 96,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 96,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 96,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 96,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 93,
+      "height": 93
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 160,
+      "height": 128
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 192,
+      "height": 96
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 128,
+      "height": 32
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 128,
+      "height": 96
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 128,
+      "height": 96
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 160,
+      "height": 128
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 65,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 56,
+      "height": 59
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 135,
+      "height": 115
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 380,
+      "height": 140
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 129,
+      "height": 332
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 109,
+      "height": 177
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 133,
+      "height": 160
+    }
+  ],
+  "imageLayerTextures": [],
+  "imageLayerTextureNames": [],
+  "tsxFiles": [],
+  "tsxFileNames": []
+}

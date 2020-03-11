@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hard-helmet1",
+    "texture": "4c3298e3-d99c-498f-b165-c15496f70d03",
+    "atlas": "",
+    "rect": [
+      4,
+      1,
+      56,
+      63
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

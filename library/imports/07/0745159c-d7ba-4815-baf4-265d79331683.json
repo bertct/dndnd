@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.TiledMapAsset",
+  "_name": "wtaf",
+  "_objFlags": 0,
+  "_native": "",
+  "tmxXmlStr": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<map version=\"1.2\" tiledversion=\"1.3.3\" orientation=\"orthogonal\" renderorder=\"right-down\" width=\"10\" height=\"10\" tilewidth=\"32\" tileheight=\"32\" infinite=\"0\" nextlayerid=\"2\" nextobjectid=\"1\">\r\n <tileset firstgid=\"1\" source=\"tmw_desert_spacing.tsx\"/>\r\n <layer id=\"1\" name=\"Capa de patrones 1\" width=\"10\" height=\"10\">\r\n  <data encoding=\"csv\">\r\n10,10,10,10,10,10,10,10,10,10,\r\n10,10,10,10,10,10,10,10,10,10,\r\n10,10,10,10,10,10,10,10,10,10,\r\n10,10,10,10,10,10,10,10,10,10,\r\n10,10,10,10,10,10,10,10,10,10,\r\n10,10,10,10,10,10,10,10,10,10,\r\n10,10,10,10,10,10,10,10,10,10,\r\n10,10,10,10,10,10,10,10,10,10,\r\n10,10,10,10,10,10,10,10,10,10,\r\n10,10,10,10,10,10,10,10,10,10\r\n</data>\r\n </layer>\r\n</map>\r\n",
+  "textures": [
+    {
+      "__uuid__": "91a8371e-bc83-49ca-9774-ab6cb03cd9de"
+    }
+  ],
+  "textureNames": [
+    "tmw_desert_spacing.png"
+  ],
+  "textureSizes": [
+    {
+      "__type__": "cc.Size",
+      "width": 265,
+      "height": 199
+    }
+  ],
+  "imageLayerTextures": [],
+  "imageLayerTextureNames": [],
+  "tsxFiles": [
+    {
+      "__uuid__": "7cc85c7b-782f-4985-8858-8c4b36ae98ff"
+    }
+  ],
+  "tsxFileNames": [
+    "tmw_desert_spacing.tsx"
+  ]
+}

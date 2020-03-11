@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "robe2",
+    "texture": "9c033a16-e7c5-4c4e-a515-012e7503554f",
+    "atlas": "",
+    "rect": [
+      5,
+      0,
+      49,
+      64
+    ],
+    "offset": [
+      -2.5,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

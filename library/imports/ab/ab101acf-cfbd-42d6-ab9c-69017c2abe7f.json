@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "guantlet1",
+    "texture": "7629a4a5-ac00-4044-9382-02588a19bc13",
+    "atlas": "",
+    "rect": [
+      3,
+      18,
+      47,
+      46
+    ],
+    "offset": [
+      -5.5,
+      -9
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

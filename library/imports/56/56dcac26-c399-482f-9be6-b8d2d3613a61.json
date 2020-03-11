@@ -1,0 +1,35 @@
+{
+  "__type__": "cc.TiledMapAsset",
+  "_name": "rule_007",
+  "_objFlags": 0,
+  "_native": "",
+  "tmxXmlStr": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<map version=\"1.0\" orientation=\"orthogonal\" width=\"7\" height=\"7\" tilewidth=\"24\" tileheight=\"24\">\n <tileset firstgid=\"1\" name=\"sewer_tileset\" tilewidth=\"24\" tileheight=\"24\">\n  <image source=\"../sewer_tileset.png\" trans=\"ff00ff\" width=\"192\" height=\"217\"/>\n </tileset>\n <tileset firstgid=\"73\" name=\"rules_sewers\" tilewidth=\"24\" tileheight=\"24\">\n  <image source=\"rules_sewers.png\" width=\"72\" height=\"48\"/>\n </tileset>\n <layer name=\"Regions\" width=\"7\" height=\"7\">\n  <data encoding=\"base64\" compression=\"zlib\">\n   eJxjYMAPfKAYnU1Ijp5mAgDb0wTB\n  </data>\n </layer>\n <layer name=\"Input_set\" width=\"7\" height=\"7\">\n  <data encoding=\"base64\" compression=\"zlib\">\n   eJxjYKAMeKPRtNaHDQAAdfQBLQ==\n  </data>\n </layer>\n <layer name=\"InputNot_set\" width=\"7\" height=\"7\">\n  <data encoding=\"base64\" compression=\"zlib\">\n   eJxjYMAPvKEYnc2AxsbGx2cmLj4++3ABAGBjA4U=\n  </data>\n </layer>\n <layer name=\"InputNot_set\" width=\"7\" height=\"7\" visible=\"0\">\n  <data encoding=\"base64\" compression=\"zlib\">\n   eJxjYCAMPNFodHFcfELmEeITax4A5OQCSQ==\n  </data>\n </layer>\n <layer name=\"Output_Ground\" width=\"7\" height=\"7\" visible=\"0\">\n  <data encoding=\"base64\" compression=\"zlib\">\n   eJxjYKAMSEJpaRL1aUJpbQrtBwEAMlQAiQ==\n  </data>\n </layer>\n</map>\n",
+  "textures": [
+    {
+      "__uuid__": "31a32712-093c-48b4-ada1-c92f1c52d93b"
+    },
+    {
+      "__uuid__": "48d0f758-caf6-4993-ae4e-60827f32c795"
+    }
+  ],
+  "textureNames": [
+    "../sewer_tileset.png",
+    "rules_sewers.png"
+  ],
+  "textureSizes": [
+    {
+      "__type__": "cc.Size",
+      "width": 192,
+      "height": 217
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 72,
+      "height": 48
+    }
+  ],
+  "imageLayerTextures": [],
+  "imageLayerTextureNames": [],
+  "tsxFiles": [],
+  "tsxFileNames": []
+}

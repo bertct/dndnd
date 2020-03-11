@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "395911e6-8483-48b6-bfa8-803dcb85dfca",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 64,
+  "height": 64,
+  "platformSettings": {},
+  "subMetas": {
+    "earthWall2": {
+      "ver": "1.0.4",
+      "uuid": "dda1fc1a-1cdd-41b5-8eed-af2209207c89",
+      "rawTextureUuid": "395911e6-8483-48b6-bfa8-803dcb85dfca",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 64,
+      "height": 64,
+      "rawWidth": 64,
+      "rawHeight": 64,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "projectPath": "C:\\Users\\Starloop\\Downloads\\start_project\\start_project",
+  "mtimes": {
+    "60fd997a-d5f8-4bc0-b1bf-6016b45152f3": {
+      "assetMtime": 1583399297442,
+      "metaMtime": 1583399308295
+    },
+    "23d2865a-11b2-42a0-8aa8-38037fc37a0e": {
+      "assetMtime": 1583341560352,
+      "metaMtime": 1583342119979
+    },
+    "beef4b8b-185b-4816-8304-26901ad6dfa1": {
+      "assetMtime": 1583341560352,
+      "metaMtime": 1583342119979
+    },
+    "7b3d141c-650b-42e8-a7a6-e685c9eb2073": {
+      "assetMtime": 1583341450108,
+      "metaMtime": 1583342120003
+    },
+    "12f35aa8-b9ad-44ab-8a12-9b3f0dffbeac": {
+      "assetMtime": 1583341450108,
+      "metaMtime": 1583342120003
+    },
+    "a1cfb90c-2613-4775-98d6-ea19d411da69": {
+      "assetMtime": 1583341490865,
+      "metaMtime": 1583342120012
+    },
+    "6cd23bea-a0a2-42e9-91d6-2fe4ec38a9ea": {
+      "assetMtime": 1583341490865,
+      "metaMtime": 1583342120012
+    },
+    "c6a88fe7-27e3-49c7-84b5-edfe5688f7bc": {
+      "assetMtime": 1583341275640,
+      "metaMtime": 1583342119970
+    },
+    "b4fa4fd6-6c48-448e-b56e-a84199b0e440": {
+      "assetMtime": 1583341275640,
+      "metaMtime": 1583342119970
+    }
+  },
+  "result": {
+    "name": "weaponsAtlas-2",
+    "width": 972,
+    "height": 838,
+    "ver": "1.2.0",
+    "uuid": "60fd997a-d5f8-4bc0-b1bf-6016b45152f3",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": false,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "4280356_pixel-sword-pixel-sword-png-download",
+            "uuid": "c6a88fe7-27e3-49c7-84b5-edfe5688f7bc",
+            "textureUuid": "b4fa4fd6-6c48-448e-b56e-a84199b0e440",
+            "path": "C:\\Users\\Starloop\\Downloads\\start_project\\start_project\\temp\\trimImages\\spritesheet_js_1583399313426_image_3.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 880,
+              "height": 880,
+              "rotatedWidth": 880,
+              "rotatedHeight": 880
+            },
+            "rawWidth": 880,
+            "rawHeight": 880,
+            "width": 886,
+            "height": 886,
+            "originalPath": "C:/Users/Starloop/Downloads/start_project/start_project/library/imports/b4/b4fa4fd6-6c48-448e-b56e-a84199b0e440.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 886,
+            "rotatedHeight": 886
+          },
+          {
+            "name": "TOILhm",
+            "uuid": "7b3d141c-650b-42e8-a7a6-e685c9eb2073",
+            "textureUuid": "12f35aa8-b9ad-44ab-8a12-9b3f0dffbeac",
+            "path": "C:\\Users\\Starloop\\Downloads\\start_project\\start_project\\temp\\trimImages\\spritesheet_js_1583399313425_image_1.png",
+            "trim": {
+              "x": 3,
+              "y": 889,
+              "width": 788,
+              "height": 128,
+              "rotatedWidth": 788,
+              "rotatedHeight": 128
+            },
+            "rawWidth": 788,
+            "rawHeight": 228,
+            "width": 794,
+            "height": 134,
+            "originalPath": "C:/Users/Starloop/Downloads/start_project/start_project/library/imports/12/12f35aa8-b9ad-44ab-8a12-9b3f0dffbeac.png",
+            "x": 0,
+            "y": 886,
+            "rotatedWidth": 794,
+            "rotatedHeight": 134
+          }
+        ],
+        "width": 886,
+        "height": 1020,
+        "name": "weaponsAtlas-1",
+        "imagePath": "C:\\Users\\Starloop\\Downloads\\start_project\\start_project\\temp\\TexturePacker\\preview\\images\\Items\\Weapons\\weaponsAtlas.pac\\weaponsAtlas-1.png"
+      },
+      {
+        "files": [
+          {
+            "name": "pKz9Nx",
+            "uuid": "a1cfb90c-2613-4775-98d6-ea19d411da69",
+            "textureUuid": "6cd23bea-a0a2-42e9-91d6-2fe4ec38a9ea",
+            "path": "C:\\Users\\Starloop\\Downloads\\start_project\\start_project\\temp\\trimImages\\spritesheet_js_1583399313425_image_2.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 320,
+              "height": 832,
+              "rotatedWidth": 320,
+              "rotatedHeight": 832
+            },
+            "rawWidth": 320,
+            "rawHeight": 832,
+            "width": 326,
+            "height": 838,
+            "originalPath": "C:/Users/Starloop/Downloads/start_project/start_project/library/imports/6c/6cd23bea-a0a2-42e9-91d6-2fe4ec38a9ea.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 326,
+            "rotatedHeight": 838
+          },
+          {
+            "name": "f59b28019ac6df58ada7027e1ffc9df1",
+            "uuid": "23d2865a-11b2-42a0-8aa8-38037fc37a0e",
+            "textureUuid": "beef4b8b-185b-4816-8304-26901ad6dfa1",
+            "path": "C:\\Users\\Starloop\\Downloads\\start_project\\start_project\\temp\\trimImages\\spritesheet_js_1583399313425_image_0.png",
+            "trim": {
+              "x": 329,
+              "y": 3,
+              "width": 640,
+              "height": 640,
+              "rotatedWidth": 640,
+              "rotatedHeight": 640
+            },
+            "rawWidth": 640,
+            "rawHeight": 640,
+            "width": 646,
+            "height": 646,
+            "originalPath": "C:/Users/Starloop/Downloads/start_project/start_project/library/imports/be/beef4b8b-185b-4816-8304-26901ad6dfa1.png",
+            "x": 326,
+            "y": 0,
+            "rotatedWidth": 646,
+            "rotatedHeight": 646
+          }
+        ],
+        "width": 972,
+        "height": 838,
+        "name": "weaponsAtlas-2",
+        "imagePath": "C:\\Users\\Starloop\\Downloads\\start_project\\start_project\\temp\\TexturePacker\\preview\\images\\Items\\Weapons\\weaponsAtlas.pac\\weaponsAtlas-2.png"
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

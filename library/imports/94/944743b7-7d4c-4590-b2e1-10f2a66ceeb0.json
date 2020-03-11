@@ -1,0 +1,7 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "README",
+  "_objFlags": 0,
+  "_native": "",
+  "text": "Sticker Knight platformer example\n---------------------------------\n\nThis example is by @ponywolf and released to the public domain. You can\nfind it at http://opengameart.org/content/sticker-knight-platformer.\n\nIt's a great example of using the flexible image collection tilesets with\ntiles on object layers, for both the map and the UI.\n"
+}

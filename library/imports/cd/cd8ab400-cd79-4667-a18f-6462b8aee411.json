@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sewer_tileset",
+    "texture": "31a32712-093c-48b4-ada1-c92f1c52d93b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      192,
+      217
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      192,
+      217
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

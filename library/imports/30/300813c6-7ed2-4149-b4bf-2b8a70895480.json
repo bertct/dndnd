@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rod4",
+    "texture": "93fff149-d8c1-4529-82ef-c5bf34c41c5a",
+    "atlas": "",
+    "rect": [
+      5,
+      12,
+      59,
+      52
+    ],
+    "offset": [
+      2.5,
+      -6
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

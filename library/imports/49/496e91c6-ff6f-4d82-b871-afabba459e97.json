@@ -1,0 +1,35 @@
+{
+  "__type__": "cc.TiledMapAsset",
+  "_name": "rule_008",
+  "_objFlags": 0,
+  "_native": "",
+  "tmxXmlStr": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE map SYSTEM \"http://mapeditor.org/dtd/1.0/map.dtd\">\n<map version=\"1.0\" orientation=\"orthogonal\" width=\"4\" height=\"4\" tilewidth=\"24\" tileheight=\"24\">\n <properties>\n  <property name=\"NoOverlappingRules\" value=\"1\"/>\n </properties>\n <tileset firstgid=\"1\" name=\"sewer_tileset\" tilewidth=\"24\" tileheight=\"24\">\n  <image source=\"../sewer_tileset.png\" trans=\"ff00ff\" width=\"192\" height=\"217\"/>\n </tileset>\n <tileset firstgid=\"73\" name=\"rules_sewers\" tilewidth=\"24\" tileheight=\"24\">\n  <image source=\"rules_sewers.png\" width=\"72\" height=\"48\"/>\n </tileset>\n <layer name=\"regions_input\" width=\"4\" height=\"4\">\n  <data encoding=\"base64\" compression=\"zlib\">\n   eJxjYCAMfKAYGwAAD7AAmQ==\n  </data>\n </layer>\n <layer name=\"regions_output\" width=\"4\" height=\"4\">\n  <data encoding=\"base64\" compression=\"zlib\">\n   eJxjYMAEPljEcAEADVAATQ==\n  </data>\n </layer>\n <layer name=\"input_Over\" width=\"4\" height=\"4\">\n  <data encoding=\"base64\" compression=\"zlib\">\n   eJxjYCAMWICYF4ccAAHoABI=\n  </data>\n </layer>\n <objectgroup name=\"output_GroundEffects\" width=\"4\" height=\"4\">\n  <object name=\"1\" type=\"Effect\" x=\"24\" y=\"24\" width=\"24\" height=\"24\">\n   <properties>\n    <property name=\"predefined Value\" value=\"\"/>\n   </properties>\n  </object>\n </objectgroup>\n</map>\n",
+  "textures": [
+    {
+      "__uuid__": "31a32712-093c-48b4-ada1-c92f1c52d93b"
+    },
+    {
+      "__uuid__": "48d0f758-caf6-4993-ae4e-60827f32c795"
+    }
+  ],
+  "textureNames": [
+    "../sewer_tileset.png",
+    "rules_sewers.png"
+  ],
+  "textureSizes": [
+    {
+      "__type__": "cc.Size",
+      "width": 192,
+      "height": 217
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 72,
+      "height": 48
+    }
+  ],
+  "imageLayerTextures": [],
+  "imageLayerTextureNames": [],
+  "tsxFiles": [],
+  "tsxFileNames": []
+}

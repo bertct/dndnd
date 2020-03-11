@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "light-helment2",
+    "texture": "16689683-c94b-4169-a3a2-6c09871aa3f7",
+    "atlas": "",
+    "rect": [
+      4,
+      2,
+      56,
+      62
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

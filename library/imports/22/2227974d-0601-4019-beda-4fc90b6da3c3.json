@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "doorStroked",
+    "texture": "d379a2c0-6fd1-468d-afde-3eba96c2dddd",
+    "atlas": "",
+    "rect": [
+      7,
+      1,
+      146,
+      191
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      160,
+      192
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

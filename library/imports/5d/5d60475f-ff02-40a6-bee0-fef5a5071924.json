@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "platformConnector2",
+    "texture": "1681c783-6dbe-4548-9b7a-314df20e038e",
+    "atlas": "",
+    "rect": [
+      14,
+      0,
+      82,
+      40
+    ],
+    "offset": [
+      7,
+      12
+    ],
+    "originalSize": [
+      96,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

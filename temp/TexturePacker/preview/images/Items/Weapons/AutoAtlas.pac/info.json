@@ -1,0 +1,76 @@
+{
+  "projectPath": "C:\\Users\\Starloop\\Downloads\\start_project\\start_project",
+  "mtimes": {
+    "39eaf09c-d7cc-4ecf-9751-2dc9b4b89013": {
+      "assetMtime": 1583399378081,
+      "metaMtime": 1583399378083
+    },
+    "23d2865a-11b2-42a0-8aa8-38037fc37a0e": {
+      "assetMtime": 1583341560352,
+      "metaMtime": 1583342119979
+    },
+    "beef4b8b-185b-4816-8304-26901ad6dfa1": {
+      "assetMtime": 1583341560352,
+      "metaMtime": 1583342119979
+    }
+  },
+  "result": {
+    "name": "AutoAtlas",
+    "width": 1024,
+    "height": 1024,
+    "ver": "1.2.0",
+    "uuid": "39eaf09c-d7cc-4ecf-9751-2dc9b4b89013",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": false,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "f59b28019ac6df58ada7027e1ffc9df1",
+            "uuid": "23d2865a-11b2-42a0-8aa8-38037fc37a0e",
+            "textureUuid": "beef4b8b-185b-4816-8304-26901ad6dfa1",
+            "path": "C:\\Users\\Starloop\\Downloads\\start_project\\start_project\\temp\\trimImages\\spritesheet_js_1583399380083_image_0.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 640,
+              "height": 640,
+              "rotatedWidth": 640,
+              "rotatedHeight": 640
+            },
+            "rawWidth": 640,
+            "rawHeight": 640,
+            "width": 646,
+            "height": 646,
+            "originalPath": "C:/Users/Starloop/Downloads/start_project/start_project/library/imports/be/beef4b8b-185b-4816-8304-26901ad6dfa1.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 646,
+            "rotatedHeight": 646
+          }
+        ],
+        "width": 646,
+        "height": 646,
+        "name": "AutoAtlas-1",
+        "imagePath": "C:\\Users\\Starloop\\Downloads\\start_project\\start_project\\temp\\TexturePacker\\preview\\images\\Items\\Weapons\\AutoAtlas.pac\\AutoAtlas-1.png"
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

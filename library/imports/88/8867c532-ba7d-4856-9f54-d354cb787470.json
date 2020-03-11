@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bow5",
+    "texture": "02f6f259-882f-4658-b498-c346865f750a",
+    "atlas": "",
+    "rect": [
+      4,
+      1,
+      60,
+      63
+    ],
+    "offset": [
+      2,
+      -0.5
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

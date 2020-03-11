@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mace4",
+    "texture": "e7a7856e-8c41-4ad5-a809-73eaf2325a59",
+    "atlas": "",
+    "rect": [
+      8,
+      8,
+      56,
+      56
+    ],
+    "offset": [
+      4,
+      -4
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

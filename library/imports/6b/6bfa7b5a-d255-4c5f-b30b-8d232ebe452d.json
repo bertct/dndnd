@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tmw_desert_spacing",
+    "texture": "91a8371e-bc83-49ca-9774-ab6cb03cd9de",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      265,
+      199
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      265,
+      199
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

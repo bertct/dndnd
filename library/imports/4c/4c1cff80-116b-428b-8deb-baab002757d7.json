@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "isometric_grass_and_water",
+    "texture": "21b4e260-f367-444c-9b15-c8d62415c19f",
+    "atlas": "",
+    "rect": [
+      0,
+      4,
+      256,
+      370
+    ],
+    "offset": [
+      0,
+      3
+    ],
+    "originalSize": [
+      256,
+      384
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

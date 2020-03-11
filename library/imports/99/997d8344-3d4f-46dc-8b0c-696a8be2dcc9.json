@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "doorGreenStroke",
+    "texture": "cc47b995-1209-4939-8f6b-fd1a9bac19bf",
+    "atlas": "",
+    "rect": [
+      7,
+      1,
+      146,
+      191
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      160,
+      192
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

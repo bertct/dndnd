@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "priets-guantlet1",
+    "texture": "71beb649-2791-47b3-bf05-6d3e397b16ce",
+    "atlas": "",
+    "rect": [
+      10,
+      0,
+      44,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

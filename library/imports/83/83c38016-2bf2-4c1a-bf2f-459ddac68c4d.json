@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "knight-shoe1",
+    "texture": "6cf13921-660b-438d-92ff-692fb7d36b1e",
+    "atlas": "",
+    "rect": [
+      6,
+      0,
+      45,
+      64
+    ],
+    "offset": [
+      -3.5,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

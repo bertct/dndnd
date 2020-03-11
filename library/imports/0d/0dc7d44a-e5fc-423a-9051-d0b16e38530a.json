@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mage-shoe1",
+    "texture": "e73b6f1f-5a93-4f6b-88ab-6416c8aefbdd",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      56,
+      64
+    ],
+    "offset": [
+      -4,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

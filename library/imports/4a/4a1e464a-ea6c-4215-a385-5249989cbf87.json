@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hard-helment2",
+    "texture": "992e70b3-926c-4aef-84bb-5684f8abb7f9",
+    "atlas": "",
+    "rect": [
+      2,
+      0,
+      62,
+      64
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

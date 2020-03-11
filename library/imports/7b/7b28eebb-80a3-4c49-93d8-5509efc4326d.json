@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hexmini",
+    "texture": "75ef895c-0de5-4e5f-8633-ef9de9492343",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      105,
+      69
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      106,
+      72
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
